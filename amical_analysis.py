@@ -14,8 +14,8 @@ from astropy import units as u
 
 # %%
 dirp = Path("/home/vandal/Documents/data/lower_contrast/")
-show_figs = "all"  # "first" or "all" or "none"
-extract_id = "no_clean"
+show_figs = "first"  # "first" or "all" or "none"
+extract_id = "clean"
 oifits_subdir = f"{extract_id}_amical_calib"
 
 # %%

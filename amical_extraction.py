@@ -22,8 +22,8 @@ import utils as ut
 # You can edit the path and glob pattern to use another setup
 dirp = Path("/home/vandal/Documents/data/lower_contrast/")
 show_figs = "first"  # "first" or "all" or "none"
-clean = False
-save_id = "no_clean"
+clean = True
+save_id = "clean"
 save_id_for_fname = save_id + "_"
 # save_id_for_fname = ""
 
