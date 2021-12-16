@@ -1,0 +1,14 @@
+# This file can specify a dictionary of AMICAL parameters
+clean:
+  isz: 79     # Final cropped image size [pix]
+  r1: 31      # Inner radius to compute sky [pix]
+  dr: 2       # Outer radius (r2 = r1 + dr)
+  apod: True  # If True, apply windowing
+  window: 32  # FWHM of the super-gaussian (for windowing)
+  clip: True
+  clip_fact: 0.5
+extraction:
+  peakmethod: fft
+  bs_multi_tri: False
+  maskname: g7
+  fw_splodge: 0.7
